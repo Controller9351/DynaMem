@@ -1,0 +1,5 @@
+workload,policy,seed,num_requests,num_blocks,block_size_bytes,blocks_per_request,min_blocks_per_request,max_blocks_per_request,operations,latency_weight,hybrid_size_threshold_bytes,reference_policy,speedup,latency_reduction_pct,energy_reduction_pct,data_movement_reduction_pct,movement_reduction_pct,p95_latency_ns,reference_p95_latency_ns
+reused,ADAPTIVE,42,12,256,4096,4,,,BITMAP_AND,0.0,262144,CPU_ONLY,1.2877688685248823,16.222435027797733,74.35779090080355,61.111111111111114,61.111111111111114,7747.0,10008.0
+reused,CPU_ONLY,42,12,256,4096,4,,,BITMAP_AND,0.0,262144,CPU_ONLY,1.0,0.0,0.0,0.0,0.0,10008.0,10008.0
+random,ADAPTIVE,42,12,256,4096,4,,,BITMAP_AND,0.0,262144,CPU_ONLY,1.7128993125758187,28.050063811208386,80.75149233414575,71.73913043478261,71.73913043478261,7329.0,12598.0
+random,CPU_ONLY,42,12,256,4096,4,,,BITMAP_AND,0.0,262144,CPU_ONLY,1.0,0.0,0.0,0.0,0.0,12598.0,12598.0

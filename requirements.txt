@@ -1,0 +1,9 @@
+
+# Event-driven architecture simulation
+simpy>=4.1,<5
+
+# Result visualization
+matplotlib>=3.8,<4
+
+# Automated testing
+pytest>=8,<10
